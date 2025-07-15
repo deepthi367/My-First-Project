@@ -1,0 +1,37 @@
+.background{
+background-color:#41423c;
+background-size: cover;
+height:100vh;
+}
+.heading{
+    color:black;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Roboto";
+    padding:12px;
+    margin:20px;
+    font-weight:bold;
+}
+.image-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+    gap:20px;
+}
+.image{
+    height:auto;
+}
+.logo-card {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  background-color: white;
+}
+.info{
+  margin-top: 10px;
+  font-size: 18px;
+  color: #444;
+  display: none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <h1 class="heading">Web development with HTML, CSS, Javascript</h1>
+        <div class = "image-container">
+            <div class = "logo-card">
+              <img src="Html-logo.svg" onclick = "showInfo('html')"
+              alt="html logo" class = "image"width="200">
+              <div class="info" id="html-info"></div>
+            </div>
+            <div class = "logo-card">
+              <img src="Css-logo.svg" onclick = "showInfo('css')"
+              alt="css logo"  class = "image" width="150">
+              <div class="info" id="css-info"></div>
+            </div>
+            <div class = "logo-card">
+              <img src="JavaScript_Logo.png" onclick = "showInfo('js')"
+              alt="javascript logo"  class = "image" width="160">
+              <div class="info" id="js-info"></div>
+            </div>
+        </div>
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
